@@ -15,8 +15,8 @@ try:
     TTS_COMMAND = "*" # LOWERCASE ONLY! * = Every Message Will Be TTS'd
     TWITCH_CHANNEL = 'twitch_channel_username_here' # LOWERCASE ONLY! If streaming on youtube leave it as is.
     STREAMING_ON_TWITCH = False # True = Twitch, False = YouTube
-    YOUTUBE_CHANNEL_ID = "UCJxffOQN9_xtcJ9MUwstkBA" # Find this under Settings -> Advanced Settings -> Channel ID (NOT USER ID)
-    YOUTUBE_STREAM_URL = "https://www.youtube.com/live/o2RJeK5E-1k" # If your stream is unlisted put the stream URL here, otherwise leave it as is.
+    YOUTUBE_CHANNEL_ID = "channel_id" # Find this under Settings -> Advanced Settings -> Channel ID (NOT USER ID)
+    YOUTUBE_STREAM_URL = "yt_url" # If your stream is unlisted put the stream URL here, otherwise leave it as is.
     MESSAGE_RATE = 0 # How fast the program processes incoming Chat messages. Lower = Faster, Higher = Slower, 0 = As fast as possible
     MAX_QUEUE_LENGTH = 1 # ~1-10 is HIGHLY RECOMENDED because if you have a high message rate the program won't crash.
     MAX_WORKERS = 100 # 100 Recomended
