@@ -16,7 +16,7 @@ pip install -r requirements.txt
 TTS_COMMAND - What should the user include at the begining of their message to use TTS
 Example:
 ````python
-TTS_COMMAND = "TTS: " # Users will have to put "TTS: " at the start of there message for TTS
+TTS_COMMAND = "tts: " # Users will have to put "tts: " at the start of there message for TTS
 ````
 TWITCH_CHANNEL - Twitch Channel to Read Messages from.
 STREAMING_ON_TWITCH - If true read messages from twitch instead of youtube.
