@@ -14,16 +14,23 @@ pip install -r requirements.txt
 6. Run it while streaming and enjoy!
 # What do the variables do?
 TTS_COMMAND - What should the user include at the begining of their message to use TTS
+
 Example:
 ````python
 TTS_COMMAND = "tts: " # Users will have to put "tts: " at the start of there message for TTS
 ````
 TWITCH_CHANNEL - Twitch Channel to Read Messages from.
+
 STREAMING_ON_TWITCH - If true read messages from twitch instead of youtube.
+
 YOUTUBE_CHANNEL_ID - Your YouTube Channel ID (Find this by clicking your Youtube profile pic -> Settings -> Advanced Settings)
+
 YOUTUBE_STREAM_URL - If your stream is unlisted put the stream URL here.
+
 MESSAGE_RATE - How fast the program processes incoming Chat messages
+
 MAX_QUEUE_LENGTH - ~1-10 is HIGHLY RECOMENDED
+
 AnounceUser - Include usernames in TTS
 
 # Credits
