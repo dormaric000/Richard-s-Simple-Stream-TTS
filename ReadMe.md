@@ -26,5 +26,9 @@ MESSAGE_RATE - How fast the program processes incoming Chat messages
 MAX_QUEUE_LENGTH - ~1-10 is HIGHLY RECOMENDED
 AnounceUser - Include usernames in TTS
 
+# Credits
+Some code was made by [dougdoug](https://github.com/DougDougGithub/TwitchPlays). I just added stuff too it.
+
+
 # Support
 Need help? Contact me at Richdorman2+support@gmail.com
